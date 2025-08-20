@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Envs
+.venv/
+venv/
+.env
+.env.*
+
+# Tools & reports
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Editors
+.vscode/
+.idea/
+
+# Data/artefacts
+data/*
+!data/raw/
+*.db
+*.sqlite
+
+# Docker
+*.log
